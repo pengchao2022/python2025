@@ -13,3 +13,5 @@ response = requests.get(url)
 soup = BeautifulSoup(response.content, "html.parser")
 
 print(soup)
+print()
+print(response.status_code)
