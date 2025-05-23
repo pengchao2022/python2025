@@ -1,0 +1,11 @@
+
+#http 返回值解释
+
+2XX  -------> Success ----- 成功
+
+3XX  -------> Redirection -----重定向
+
+4XX  -------> Client Errors ------ 客户端错误
+
+5XX  --------> Server Errors ------ 服务器端错误
+
