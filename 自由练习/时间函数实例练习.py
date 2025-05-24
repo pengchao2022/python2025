@@ -1,7 +1,7 @@
 #计算时间差
 import time
 
-time1 = '2025-05-24 16:05:53'
+time1 = '2025-04-4 16:05:53'
 
 time2 = '2025-05-24 17:53:21'
 
@@ -30,4 +30,4 @@ print("过去了{}年{}月{}日{}小时{}分钟{}秒".format(tran_time.tm_year-1
                                        tran_time.tm_min-0, tran_time.tm_sec-0))
 '''
 
-print("过去了{}小时{}分钟{}秒".format(tran_time.tm_hour-0,tran_time.tm_min-0, tran_time.tm_sec-0))
+print("过去了{}天{}小时{}分钟{}秒".format(tran_time.tm_yday-1,tran_time.tm_hour-0,tran_time.tm_min-0, tran_time.tm_sec-0))
