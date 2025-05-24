@@ -10,5 +10,6 @@ func(6)
 func('u') #[6, 'u']
 func(99)
 
+#end=' ' 同行输出
 print(8,9, end=' ')
 print(55,66)

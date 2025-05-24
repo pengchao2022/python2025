@@ -23,3 +23,7 @@ str_t = '2025-5-23 14:30:20'
 
 #带有星期的时间
 print(time.asctime(time.localtime(t)))
+
+#时间元组转换为时间戳 mktime 函数
+
+print(time.mktime(time.localtime(t)))
