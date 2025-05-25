@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Allen",
+        "age": 34,
+        "height": 179,
+        "scores": {
+            "math": 89.0,
+            "english": 98.6,
+            "chemistry": 78.5
+        }
+    },
+    {
+        "name": "alibaba",
+        "age": 45,
+        "height": 167,
+        "scores": {
+            "math": 89.9,
+            "english": 87.6,
+            "chemistry": 78.5
+        }
+    },
+    {
+        "name": "kate",
+        "age": 29,
+        "height": 180,
+        "scores": {
+            "math": 87.9,
+            "english": 80.0,
+            "chemistry": 98.0
+        }
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "kiki",
+        "age": 30,
+        "height": 178,
+        "scores": {
+            "math": 78.0,
+            "english": 90.0,
+            "chemistry": 89.8
+        }
+    }
+]
