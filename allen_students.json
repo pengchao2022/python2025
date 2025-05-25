@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "lily",
+    "age": 78,
+    "height": 99,
+    "scores": {
+      "math": 77.0,
+      "english": 66.0,
+      "chemistry": 55.0,
+      "science": 44.0
+    }
+  },
+  {
+    "id": 2,
+    "name": "allen",
+    "age": 34,
+    "height": 182,
+    "scores": {
+      "math": 89.0,
+      "english": 87.0,
+      "chemistry": 98.6,
+      "science": 87.5
+    }
+  },
+  {
+    "id": 3,
+    "name": "kate",
+    "age": 29,
+    "height": 178,
+    "scores": {
+      "math": 99.0,
+      "english": 88.0,
+      "chemistry": 88.5,
+      "science": 77.0
+    }
+  }
+]
