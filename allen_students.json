@@ -12,18 +12,6 @@
     }
   },
   {
-    "id": 2,
-    "name": "allen",
-    "age": 34,
-    "height": 182,
-    "scores": {
-      "math": 89.0,
-      "english": 87.0,
-      "chemistry": 98.6,
-      "science": 87.5
-    }
-  },
-  {
     "id": 3,
     "name": "kate",
     "age": 29,
@@ -33,6 +21,18 @@
       "english": 88.0,
       "chemistry": 88.5,
       "science": 77.0
+    }
+  },
+  {
+    "id": 4,
+    "name": "jim",
+    "age": 34,
+    "height": 178,
+    "scores": {
+      "math": 89.5,
+      "english": 80.0,
+      "chemistry": 78.0,
+      "science": 84.0
     }
   }
 ]
