@@ -18,7 +18,17 @@ print(f"HTTP 请求返回记录：{response.status_code}")
 #编写正则过滤新闻热点
 ret = re.findall('<span class="title-content-title">.*?</span>', response.text)
 print(f"总共有{len(ret)}条热点")
+print()
 
-for news in ret:
-    print(news)
+#print(ret)
+#for news in ret:
+    #print(news)
 
+# 提取中文核心内容（保留标点）
+chinese_titles = [re.search(r'>([^<]+)</', item).group(1) for item in ret]
+
+# 打印结果
+for title in chinese_titles:
+    print(title)
+    print()
+print("显示完毕！")
