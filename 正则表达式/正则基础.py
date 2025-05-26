@@ -24,7 +24,7 @@ print(ret4)
 ret5 = re.findall(r"\ba.e\b", str1)
 print(ret5)
 
-#2,字符集[] 智能匹配一个
+#2,字符集[] 只能匹配一个
 str2 = "apple ape agree age amaze animate aReeee aWWEEEE eadvertise a\ne a&e a@e a6e a9e"
 
 ret7 = re.findall("a.e", str2)
