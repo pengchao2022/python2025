@@ -19,3 +19,9 @@ text = "kate lucy   tim    jeck       kevin  lily"
 #使用正则分割， /s 表示一个或者多个空格
 ret1 = re.split(r'\s+', text)
 print(ret1)
+
+#sub 的使用
+text1 = "my     name  is        allen"
+#将所有的按照一个空格排列
+ret2 = re.sub(r'\s+', " ", text1)
+print(ret2)

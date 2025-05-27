@@ -17,7 +17,7 @@ print(ret2) #获得的是 re.match ,不是一个列表 ， 匹配成功，返回
 print(ret2.span()) #获取的是索引位置，如：span=(21, 57) 表示从索引21 开始，到索引57结束 
 print(ret2.start())  #获取索引的开始位置， 如 打印出 21
 print(ret2.end()) #获取索引的结束位置， 如： 打印出 57
-print(ret2.group()) #获取的具体值 及元素， 如： 打印出 ERROR: Could not connect to database
+print(ret2.group()) #获取的具体内容， 如： 打印出 ERROR: Could not connect to database
 
 
 
